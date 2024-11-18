@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Zig Zag Boom [GAME]</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--sounds from https://pixabay.com/sound-effects-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Zig Zag Boom [Game]</title>
+    <meta name="viewport" content="width=device-width,initiale-scale=1,maximum-scale=1"/>
+    </head>
+    <body onload="yf()">
+<div id="loading">loading..</div>
+<audio id="bg">
+  <source type="audio/mpeg" src="https://tv9whg.am.files.1drv.com/y4m_GYnJmxPKlJ0H6HuilPShWruFD4xC6ddnuThin4LWVdLIPR8K3jVtmelqD5E9jQ8PEPBzPNV8EdzhUBjj5iGtVgH1cl-gFWRvvCDbVUGfD9c5Qx8AIl60KZ_eMT9Yb71BcsppSIDAgN-UBxofZmuxdx3DLio2u7zb-Uwfnyzn-O_r6fGM1Xd6bnxAWPY2ugJ5CoLvbZdCxcBS7ALjFBLWA?"/>
+</audio>
+<audio id="l">
+  <source type="audio/mpeg" src="https://tvpfka.am.files.1drv.com/y4m5ldiLqGZtseXCCJ5hu40DK4JYyzavz71wDx5Gyto4HCUMDGemfnEaQ3_63N7JSuJW95lgy1ai_i8K8MSd87LRMarMO2U-4VFtesjwa6d7FY-Mj8VhJxBApp_e3LAdF03mtsJwIeTCrW6WoRTewXTvkZ4XauqIzpVgI0gKmCUZefbQrWD-UtoK_52UwbW9P3BG5HH6jHiJedwx52nctPLvA?"/>
+</audio>
+<audio id="e">
+  <source type="audio/mpeg" src="https://tvqveq.am.files.1drv.com/y4mNFMz5UwDa1FbKL2N8p3bFwXeBdZ_2jWGSMQpuE289ligGXvlLb2Mb0SMqSnWD71gSnJ5DOLzlwrR9cd6uX9rpL3QnqpVmqO5yR3ndLIqDSKX7n48436yHVfQ7d7_tFBdE9WMJWtFjQW090iQSmkdx8E7KDbDcjrJ_ocSy51d5SIV2T69WexK8exxJ2cuD32wYUvjSvb3-Lkqlhl045PJOw?"/>
+</audio>
+<canvas id="cnv" width="720" height="1000"></canvas>
+<div id="menu" class="start" score="0" hscore="High Score: 0">
+<div id="msg1">Play</div>
+
+<div id="msg2"></div>
+<div id="msg3"></div>
+<div id="playbtn" onclick="changedir()"></div>
+<div id="last" onclick="changeplayerbg(-1)"></div>
+<div id="next" onclick="changeplayerbg(1)"></div>
+<div id="minScore" style="display:none;"></div>
+<div id="fps"></div>
+</div>
+    </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
