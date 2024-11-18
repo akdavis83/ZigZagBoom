@@ -1,5 +1,5 @@
 var scale=1,/*try 2 or 3 or 4 or 5*/
-cnv,ctx,w,h,player,camera,Game,interval,score=0,hscore=0,bgsound,lsound,esound,playerbg=0,s,angle=-Math.PI/4,initSpeed=8*scale;
+cnv,ctx,w,h,player,camera,Game,interval,score=0,hscore=0,bgsound,lsound,esound,playerbg=0,s,angle=-Math.PI/4,initSpeed=2*scale;
 var MDT=16;
 var mdt=MDT;
 function yf(){
